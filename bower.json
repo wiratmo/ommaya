@@ -1,0 +1,14 @@
+{
+  "name": "ommayav1",
+  "version": "1",
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "tether": "latest",
+    "jquery": "^3.0.0",
+    "fontawesome": "latest",
+    "simple-line-icons": "latest",
+    "pace": "latest",
+    "chart.js": "^2.3.0"
+  },
+  "private": true
+}
