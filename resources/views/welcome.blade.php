@@ -6,14 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-        <link href="/css/app.css" rel="stylesheet">
+        <link href="/css/all.css" rel="stylesheet">
         <!-- Fonts -->
 
 
         <!-- Styles -->
         <style>
             body{
-                background: url('img/ommayahotelsolo.jpg');
+                background: url('img/ommaya.jpg');
+                background-size: cover;
             }
 
             .full-height {

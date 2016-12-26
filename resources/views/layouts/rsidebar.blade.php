@@ -1,3 +1,6 @@
+            </div>
+        </div>
+    </main>
     <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
@@ -21,7 +24,7 @@
                 <hr class="transparent mx-1 my-0">
                 <div class="callout callout-warning m-0 py-1">
                     <div class="avatar float-xs-right">
-                        <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                        <img src="/img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                     </div>
                     <div>Meeting with
                         <strong>Lucas</strong>
@@ -32,7 +35,7 @@
                 <hr class="mx-1 my-0">
                 <div class="callout callout-info m-0 py-1">
                     <div class="avatar float-xs-right">
-                        <img src="img/avatars/4.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                        <img src="/img/avatars/4.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                     </div>
                     <div>Skype with
                         <strong>Megan</strong>
@@ -54,19 +57,19 @@
                     <small class="text-muted"><i class="icon-home"></i>&nbsp; creativeLabs HQ</small>
                     <div class="avatars-stack mt-h">
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/2.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/2.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/3.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/3.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/4.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/4.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/5.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/5.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                     </div>
                 </div>
@@ -86,25 +89,25 @@
                     <small class="text-muted"><i class="icon-home"></i>&nbsp; creativeLabs HQ</small>
                     <div class="avatars-stack mt-h">
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/2.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/2.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/3.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/3.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/4.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/4.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/5.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/5.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                         <div class="avatar avatar-xs">
-                            <img src="img/avatars/8.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/8.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                         </div>
                     </div>
                 </div>
@@ -114,7 +117,7 @@
                 <div class="message">
                     <div class="py-1 pb-3 mr-1 float-xs-left">
                         <div class="avatar">
-                            <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                             <span class="avatar-status tag-success"></span>
                         </div>
                     </div>
@@ -129,7 +132,7 @@
                 <div class="message">
                     <div class="py-1 pb-3 mr-1 float-xs-left">
                         <div class="avatar">
-                            <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                             <span class="avatar-status tag-success"></span>
                         </div>
                     </div>
@@ -144,7 +147,7 @@
                 <div class="message">
                     <div class="py-1 pb-3 mr-1 float-xs-left">
                         <div class="avatar">
-                            <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                             <span class="avatar-status tag-success"></span>
                         </div>
                     </div>
@@ -159,7 +162,7 @@
                 <div class="message">
                     <div class="py-1 pb-3 mr-1 float-xs-left">
                         <div class="avatar">
-                            <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                             <span class="avatar-status tag-success"></span>
                         </div>
                     </div>
@@ -174,7 +177,7 @@
                 <div class="message">
                     <div class="py-1 pb-3 mr-1 float-xs-left">
                         <div class="avatar">
-                            <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                            <img src="/img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                             <span class="avatar-status tag-success"></span>
                         </div>
                     </div>

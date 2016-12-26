@@ -1,0 +1,22 @@
+.bspace{
+	margin-bottom: 10px
+}
+.cposition{
+	text-align: center;
+}
+.jakun {
+	font-style: italic;
+	font-weight: bold;
+}
+.debet{
+	color: #ffed8a;
+}
+.kredit{
+	color: #000;
+}
+.left-navbar{
+	margin-top: 5px;
+}
+.modal-body{
+	margin: 0 20px;
+}

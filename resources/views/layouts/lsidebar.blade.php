@@ -3,10 +3,21 @@
         <nav class="sidebar-nav">
             <ul class="nav">
                 <li class="nav-title">
-                    Jurnal
+                    Manage
                 </li>
                 <li class="nav-item nav-dropdown">
-                    <a class="nav-link nav-dropdown-toggle" href="{{url('admin/kategori')}}"><i class="icon-puzzle"></i> Kategori</a>
+                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Jurnal</a>
+                    <ul class="nav-dropdown-items">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url('admin/kategori')}}"><i class="icon-star"></i> Kategori</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url('admin/akun')}}"><i class="icon-star"></i> Akun</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url('admin/transaksi')}}"><i class="icon-star"></i> Transaksi</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Icons</a>
@@ -49,3 +60,6 @@
             </ul>
         </nav>
     </div>
+    <main class="main">
+            <div class="container-fluid">
+                <div class="animated fadeIn">

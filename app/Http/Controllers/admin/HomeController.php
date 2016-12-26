@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Session;
 
 class HomeController extends Controller
 {
@@ -20,6 +21,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        Session::flash('success', 'Selamat datang di halaman Administrator');
         return view('admin.home');
     }
 }

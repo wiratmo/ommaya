@@ -9,7 +9,7 @@
                 </li>
 
                 <li class="nav-item px-1">
-                    <a class="nav-link" href="#">Dashboard</a>
+                    <a class="nav-link" href="/">Dashboard</a>
                 </li>
                
             </ul>

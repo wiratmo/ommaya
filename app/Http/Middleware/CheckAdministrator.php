@@ -17,7 +17,6 @@ class CheckAdministrator
     public function handle($request, Closure $next)
     {
         if (Auth::check() && Auth::user()->role_id == 3){
-             $request->session()->flash('success', 'Selamat datang di halaman Administrator');
             return $next($request);
         } else {
             return redirect('/');

@@ -11,9 +11,10 @@
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,jQuery,CSS,HTML,RWD,Dashboard">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>CoreUI - Open Source Bootstrap Admin Template</title>
+    <title>Ommaya</title>
 
     <link href="/css/all.css" rel="stylesheet">
+    @stack('style')
     
 </head>
 
@@ -22,3 +23,4 @@
 @yield('content')
 @include('layouts.rsidebar')
 @include('layouts.footer')
+@stack('scripts')

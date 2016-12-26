@@ -16,10 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 })->middleware('login');
 
-Route::group(['namespace' => 'admin', 'prefix' => 'admin', 'middleware' => 'checkadmin'], function(){
-	Route::get('home', "HomeController@index");
-	Route::get('kategori', "KategoriController@index");
-});
+include('routes/admin.php');
 
 Route::group(['namespace' => 'pimpinan', 'prefix' => 'pimpinan', 'middleware' => 'checkpimpinan'], function(){
 	Route::get('home', "HomeController@index");
