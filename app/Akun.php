@@ -39,4 +39,13 @@ class Akun extends Model
                     ->orderBy('akuns.nu','asc')
                     ->get();
     }
+
+    public function scopeSmallData($query){
+        return $query
+                    ->select('akuns.id','kategoris.kode','akuns.nu','akuns.keterangan')
+                    ->join('kategoris', 'kategoris.id', 'akuns.kategori_id')
+                    ->orderBy('kategoris.kode', 'asc')
+                    ->orderBy('akuns.nu','asc')
+                    ->get();
+    }
 }

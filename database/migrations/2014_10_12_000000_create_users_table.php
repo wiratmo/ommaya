@@ -24,10 +24,12 @@ class CreateUsersTable extends Migration
                 $table->string('email')->unique();
                 $table->string('password');
                 $table->integer('role_id')->nullable()->unsigned();
+                $table->enum('active',['y','n']);
+                $table->date('last_login')->nullable();
                 $table->rememberToken();
                 $table->timestamps();
 
-                $table->foreign('role_id')->references('id')->on('roles');
+                $table->foreign('role_id')->references('id')->on('roles')->onDelete('cascade');
             });
         }
 

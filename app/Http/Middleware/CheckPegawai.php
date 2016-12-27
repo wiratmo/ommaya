@@ -17,7 +17,6 @@ class CheckPegawai
     public function handle($request, Closure $next)
     {
         if (Auth::check() && Auth::user()->role_id == 1){
-            $request->session()->flash('success', 'Selamat datang di halaman Pegawai');
             return $next($request);
         } else {
             return redirect('/');

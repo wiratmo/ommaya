@@ -21,9 +21,11 @@ class CreateTransaksisTable extends Migration
             $table->integer('kredit')->nullable();
             $table->string('keterangan')->nullable();
             $table->integer('user_id')->unsigned();
-            $table->foreign('akun_id')->references('id')->on('akuns');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->enum('change',['y','n']);
             $table->timestamps();
+
+            $table->foreign('akun_id')->references('id')->on('akuns')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

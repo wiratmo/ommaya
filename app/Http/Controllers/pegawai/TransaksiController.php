@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace App\Http\Controllers\pegawai;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -43,10 +43,18 @@ class TransaksiController extends Controller
     	$t->user_id 	= Auth::user()->id;
     	$t->save();
     	Session::flash('success', 'Selamat anda telah menambahkan Transaksi');
-        return redirect('admin/transaksi');
+        return redirect('pegawai/transaksi');
     }
 
     public function update(EditTransaksiPost $request){
-        return $request->all();
+        $t = Transaksi::find($request->tid);
+        $t->akun_id     = $request->transaksi_id;
+        $t->debet       = $this->checkd($request->debet);
+        $t->kredit      = $this->checkk($request->kredit);
+        $t->keterangan  = $request->keterangan;
+        $t->updated_at     = Carbon::now();
+        $t->save();
+        Session::flash('success', 'Selamat anda telah merubah Transaksi');
+        return redirect('pegawai/transaksi');
     }
 }

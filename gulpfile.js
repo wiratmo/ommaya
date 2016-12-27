@@ -19,7 +19,6 @@ elixir(mix => {
       './resources/assets/bower/fontawesome/css/font-awesome.min.css',
       './resources/assets/bower/simple-line-icons/css/simple-line-icons.css',
       './resources/assets/bower/style.css',
-      './resources/assets/bower/datatables.net-bs/css/dataTables.bootstrap.css',
       './resources/assets/bower/datatables.net-dt/css/jquery.dataTables.css',
       './resources/assets/bower/ommaya.css'
       ])

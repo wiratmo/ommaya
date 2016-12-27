@@ -19,9 +19,10 @@ class CreateAkunsTable extends Migration
             $table->integer('nu');
             $table->string('keterangan')->nullable();
             $table->integer('user_id')->unsigned();
-            $table->foreign('kategori_id')->references('id')->on('kategoris');
-            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
+
+            $table->foreign('kategori_id')->references('id')->on('kategoris')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

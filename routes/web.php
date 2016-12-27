@@ -17,11 +17,7 @@ Route::get('/', function () {
 })->middleware('login');
 
 include('routes/admin.php');
+include('routes/pimpinan.php');
+include('routes/pegawai.php');
 
-Route::group(['namespace' => 'pimpinan', 'prefix' => 'pimpinan', 'middleware' => 'checkpimpinan'], function(){
-	Route::get('home', "HomeController@index");
-});
 
-Route::group(['namespace' => 'pegawai', 'prefix' => 'pegawai', 'middleware' => 'checkpegawai'], function(){
-	Route::get('home', "HomeController@index");
-});
